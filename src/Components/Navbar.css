@@ -1,0 +1,139 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgb(28, 28, 54);
+  color: white;
+  z-index: 1000;
+  
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* NEW wrapper for right section */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.nav-connect {
+  font-size: 16px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, rgb(15, 36, 222) 0.36%, rgb(18, 136, 240) 102.06%);
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: 0.5;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+
+
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: 30px;
+  
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-right {
+    gap: 0;
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  height: 100vh;
+  width: 250px;
+  background-color: #1c1c36;
+  padding: 40px 20px;
+  transition: right 0.3s ease-in-out;
+  z-index: 1200;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1100;
+}
+
+

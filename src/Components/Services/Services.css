@@ -1,0 +1,38 @@
+.services {
+  padding: 40px 40px;
+  background-color: rgb(28, 28, 54);
+  color: white;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #1e1e3f;
+  padding: 30px;
+  border-radius: 16px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(10, 7, 182, 0.3);
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #00bfff;
+  margin-bottom: 20px;
+}
+

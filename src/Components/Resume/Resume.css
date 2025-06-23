@@ -1,0 +1,177 @@
+.resume-container {
+  padding: 2rem;
+  background-color: rgb(28, 28, 54);;
+  color: white;
+  margin-bottom: 80px;
+
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #aaa;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  color: #ff4c60;
+  border-bottom: 2px solid #ff4c60;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-section {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.resume-card {
+  background: #1e1e3f;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.resume-card span{
+  display: block;
+  margin-bottom: 10px;
+}
+.resume-section  h2{
+  margin-bottom: 20px;
+}
+
+.resume-card:hover {
+  background-color: #1d1d3f; /* Slightly lighter or different color */
+  transform: scale(1.02); /* Slight zoom */
+  box-shadow: 0 4px 10px rgba(39, 76, 209, 0.4); /* Deeper shadow */
+}
+.highlight {
+  color: #ff4c60;
+  font-weight: bold;
+  float: right;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-left: 10px;
+  color: white;
+}
+
+.expert {
+  background-color: crimson;
+}
+
+.intermediate {
+  background-color: orange;
+}
+
+.advanced {
+  background-color: royalblue;
+}
+.skills-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.skills-section h2 {
+  margin-bottom: 1.5rem; /* or adjust to 0.5rem for less space */
+}
+
+
+
+.skill-group {
+  flex: 1;
+  min-width: 300px;
+}
+
+.skill-heading {
+  color: #ff4c29;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  margin-bottom: 20px;
+}
+
+.progress-bar label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.bar {
+  background-color: #1a1a1a;
+  height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.bar div {
+  height: 100%;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  transition: width 0.5s ease-in-out;
+}
+.resume-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.resume-title h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+.resume-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.resume-title h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #d22a2a;
+}
+
