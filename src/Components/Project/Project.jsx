@@ -29,11 +29,6 @@ const Project = () => {
       link: 'https://github.com/Sundarapandi531/Medicinal-Plant-Classification',
     },
     {
-      title: 'Sign Language Detection',
-      description: 'Implemented sign language detection using Mediapipe and OpenCV.',
-      link: 'https://github.com/yourusername/sign-language-detection',
-    },
-    {
       title: 'Album Finder (Spotify API)',
       description: 'A React app that lets users search for albums using Spotify API.',
       link: 'https://github.com/Sundarapandi531/Web-Project.git',
@@ -69,4 +64,5 @@ const Project = () => {
 };
 
 export default Project;
+
 
