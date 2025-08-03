@@ -26,7 +26,7 @@ const Project = () => {
     {
       title: 'Medicinal Plant Identification',
       description: 'Developed a CNN model to identify medicinal plants using VGG16.',
-      link: 'https://github.com/yourusername/medicinal-plant-cnn',
+      link: 'https://github.com/Sundarapandi531/Medicinal-Plant-Classification',
     },
     {
       title: 'Sign Language Detection',
@@ -69,3 +69,4 @@ const Project = () => {
 };
 
 export default Project;
+
