@@ -26,7 +26,7 @@ const Project = () => {
     {
       title: 'Medicinal Plant Identification',
       description: 'Developed a CNN model to identify medicinal plants using VGG16.',
-      link: 'https://github.com/Sundarapandi531/Medicinal-Plant-Classification',
+      link: 'https://github.com/Sundarapandi531/Medicinal-Plants-Classification.git',
     },
     {
       title: 'Album Finder (Spotify API)',
@@ -64,5 +64,6 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
