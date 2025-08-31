@@ -35,7 +35,7 @@ const Project = () => {
     },
     {
       title: 'Cryptocurrency Dashboard',
-      description: 'A real-time cryptocurrency dashboard with CoinGecko API, featuring coin searching, detailed views, and historical chart data.'
+      description: 'A real-time cryptocurrency dashboard with CoinGecko API, featuring coin searching, detailed views, and historical chart data.',
       link: 'https://github.com/Sundarapandi531/cryptocurrency-dashboard.git',
     },
 
@@ -75,6 +75,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
