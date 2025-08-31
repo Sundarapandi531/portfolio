@@ -29,6 +29,17 @@ const Project = () => {
       link: 'https://github.com/Sundarapandi531/Medicinal-Plants-Classification.git',
     },
     {
+      title: 'Brain Tumor Detection',
+      description: 'Developed a machine learning model to identify a brain tumor using ResNet101',
+      link: 'https://github.com/Sundarapandi531/brain-tumor-detection.git',
+    },
+    {
+      title: 'Cryptocurrency Dashboard',
+      description: 'A real-time cryptocurrency dashboard with CoinGecko API, featuring coin searching, detailed views, and historical chart data.'
+      link: 'https://github.com/Sundarapandi531/cryptocurrency-dashboard.git',
+    },
+
+    {
       title: 'Album Finder (Spotify API)',
       description: 'A React app that lets users search for albums using Spotify API.',
       link: 'https://github.com/Sundarapandi531/Web-Project.git',
@@ -64,6 +75,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
